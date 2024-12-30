@@ -1,0 +1,1325 @@
+[
+    {
+        "language": "Swift",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg",
+        "topics": [
+            {
+                "topic": "Swift Basics",
+                "description": "Core concepts and syntax of the Swift programming language.",
+                "quiz": [
+                    {
+                        "question": "What is Swift primarily used for?",
+                        "options": [
+                            "Web Development",
+                            "iOS and macOS Development",
+                            "Game Development",
+                            "Data Science"
+                        ],
+                        "answer": "iOS and macOS Development"
+                    },
+                    {
+                        "question": "What is the keyword to declare a constant in Swift?",
+                        "options": [
+                            "let",
+                            "var",
+                            "const",
+                            "immutable"
+                        ],
+                        "answer": "let"
+                    },
+                    {
+                        "question": "What type does Swift use for text?",
+                        "options": [
+                            "Text",
+                            "String",
+                            "Character",
+                            "Word"
+                        ],
+                        "answer": "String"
+                    },
+                    {
+                        "question": "Which of these is NOT a collection type in Swift?",
+                        "options": [
+                            "Array",
+                            "Set",
+                            "Dictionary",
+                            "Graph"
+                        ],
+                        "answer": "Graph"
+                    },
+                    {
+                        "question": "What is the default value of an uninitialized variable in Swift?",
+                        "options": [
+                            "nil",
+                            "0",
+                            "undefined",
+                            "Swift does not allow uninitialized variables"
+                        ],
+                        "answer": "Swift does not allow uninitialized variables"
+                    },
+                    {
+                        "question": "What keyword is used to create a function in Swift?",
+                        "options": [
+                            "function",
+                            "def",
+                            "func",
+                            "fn"
+                        ],
+                        "answer": "func"
+                    },
+                    {
+                        "question": "How do you declare an optional in Swift?",
+                        "options": [
+                            "Using ?",
+                            "Using !",
+                            "Using optional",
+                            "Using ?!"
+                        ],
+                        "answer": "Using ?"
+                    },
+                    {
+                        "question": "What is the type of a Boolean in Swift?",
+                        "options": [
+                            "Boolean",
+                            "Bool",
+                            "bool",
+                            "BooleanType"
+                        ],
+                        "answer": "Bool"
+                    },
+                    {
+                        "question": "Which of these is a valid way to handle optionals?",
+                        "options": [
+                            "Optional Binding",
+                            "Force Unwrapping",
+                            "Nil Coalescing",
+                            "All of the above"
+                        ],
+                        "answer": "All of the above"
+                    },
+                    {
+                        "question": "What is the syntax for a for-in loop in Swift?",
+                        "options": [
+                            "for x in y {}",
+                            "for (x in y) {}",
+                            "for x : y {}",
+                            "for each x in y {}"
+                        ],
+                        "answer": "for x in y {}"
+                    },
+                    {
+                        "question": "How do you declare an integer variable in Swift?",
+                        "options": [
+                            "var x = Int",
+                            "var x: Int",
+                            "int x",
+                            "Int x"
+                        ],
+                        "answer": "var x: Int"
+                    },
+                    {
+                        "question": "Which operator is used for string concatenation in Swift?",
+                        "options": [
+                            "+",
+                            "&",
+                            ".",
+                            "concat"
+                        ],
+                        "answer": "+"
+                    },
+                    {
+                        "question": "What is the purpose of a guard statement in Swift?",
+                        "options": [
+                            "To terminate a loop",
+                            "To handle optionals",
+                            "To check conditions early",
+                            "To define constants"
+                        ],
+                        "answer": "To check conditions early"
+                    },
+                    {
+                        "question": "What is the value of 5 % 2 in Swift?",
+                        "options": [
+                            "0",
+                            "1",
+                            "2",
+                            "5"
+                        ],
+                        "answer": "1"
+                    },
+                    {
+                        "question": "What is a tuple in Swift?",
+                        "options": [
+                            "A type of array",
+                            "A collection of values",
+                            "A type of dictionary",
+                            "A loop construct"
+                        ],
+                        "answer": "A collection of values"
+                    },
+                    {
+                        "question": "What is the difference between let and var in Swift?",
+                        "options": [
+                            "let is for strings, var is for numbers",
+                            "let is immutable, var is mutable",
+                            "They are interchangeable",
+                            "let is for global variables, var is for local variables"
+                        ],
+                        "answer": "let is immutable, var is mutable"
+                    },
+                    {
+                        "question": "What does the nil coalescing operator (??) do?",
+                        "options": [
+                            "Unwraps an optional",
+                            "Provides a default value for nil optionals",
+                            "Throws an error for nil",
+                            "Replaces nil with 0"
+                        ],
+                        "answer": "Provides a default value for nil optionals"
+                    },
+                    {
+                        "question": "What is the type of the following value: [1, 2, 3]?",
+                        "options": [
+                            "Set<Int>",
+                            "Array<Int>",
+                            "Dictionary<Int>",
+                            "Tuple"
+                        ],
+                        "answer": "Array<Int>"
+                    },
+                    {
+                        "question": "How do you define a class in Swift?",
+                        "options": [
+                            "class MyClass {}",
+                            "MyClass: class {}",
+                            "def class MyClass {}",
+                            "MyClass {}"
+                        ],
+                        "answer": "class MyClass {}"
+                    },
+                    {
+                        "question": "What is a protocol in Swift?",
+                        "options": [
+                            "A type of function",
+                            "A blueprint for methods and properties",
+                            "A loop construct",
+                            "A collection type"
+                        ],
+                        "answer": "A blueprint for methods and properties"
+                    },
+                    {
+                        "question": "How do you call a method on an object in Swift?",
+                        "options": [
+                            "object.method()",
+                            "object->method()",
+                            "object:method()",
+                            "object::method()"
+                        ],
+                        "answer": "object.method()"
+                    },
+                    {
+                        "question": "What is the default access level in Swift?",
+                        "options": [
+                            "public",
+                            "private",
+                            "internal",
+                            "protected"
+                        ],
+                        "answer": "internal"
+                    },
+                    {
+                        "question": "How do you create a closure in Swift?",
+                        "options": [
+                            "{ parameters in statements }",
+                            "(parameters) => { statements }",
+                            "function(parameters) { statements }",
+                            "parameters -> { statements }"
+                        ],
+                        "answer": "{ parameters in statements }"
+                    },
+                    {
+                        "question": "What is the purpose of @IBOutlet in Swift?",
+                        "options": [
+                            "To create a UI element",
+                            "To connect UI elements to code",
+                            "To declare a function",
+                            "To define a variable"
+                        ],
+                        "answer": "To connect UI elements to code"
+                    },
+                    {
+                        "question": "What does @IBAction do in Swift?",
+                        "options": [
+                            "Creates a UI action",
+                            "Connects a UI action to code",
+                            "Defines a variable",
+                            "Defines a function"
+                        ],
+                        "answer": "Connects a UI action to code"
+                    },
+                    {
+                        "question": "What is the use of Codable in Swift?",
+                        "options": [
+                            "Networking",
+                            "Serialization and Deserialization",
+                            "Database handling",
+                            "Error handling"
+                        ],
+                        "answer": "Serialization and Deserialization"
+                    },
+                    {
+                        "question": "How do you handle errors in Swift?",
+                        "options": [
+                            "try-catch",
+                            "throw-catch",
+                            "try-catch-finally",
+                            "do-try-catch"
+                        ],
+                        "answer": "do-try-catch"
+                    },
+                    {
+                        "question": "Which of these is NOT a higher-order function in Swift?",
+                        "options": [
+                            "map",
+                            "reduce",
+                            "filter",
+                            "loop"
+                        ],
+                        "answer": "loop"
+                    },
+                    {
+                        "question": "What is the use of the defer statement in Swift?",
+                        "options": [
+                            "To handle errors",
+                            "To execute code after leaving the current scope",
+                            "To define constants",
+                            "To declare variables"
+                        ],
+                        "answer": "To execute code after leaving the current scope"
+                    },
+                    {
+                        "question": "What is the main entry point of a Swift program?",
+                        "options": [
+                            "@main",
+                            "main()",
+                            "init()",
+                            "run()"
+                        ],
+                        "answer": "@main"
+                    },
+                    {
+                        "question": "What is the difference between a struct and a class in Swift?",
+                        "options": [
+                            "Structs are reference types, classes are value types",
+                            "Structs are value types, classes are reference types",
+                            "Structs are immutable, classes are mutable",
+                            "Structs can inherit, classes cannot"
+                        ],
+                        "answer": "Structs are value types, classes are reference types"
+                    },
+                    {
+                        "question": "What does the guard statement require?",
+                        "options": [
+                            "An else clause",
+                            "A return statement",
+                            "A loop",
+                            "An optional"
+                        ],
+                        "answer": "An else clause"
+                    },
+                    {
+                        "question": "How do you create an enum in Swift?",
+                        "options": [
+                            "enum MyEnum {}",
+                            "MyEnum: enum {}",
+                            "enum { MyEnum }",
+                            "create enum MyEnum {}"
+                        ],
+                        "answer": "enum MyEnum {}"
+                    },
+                    {
+                        "question": "What does the keyword self refer to in Swift?",
+                        "options": [
+                            "The current instance",
+                            "The superclass",
+                            "A new instance",
+                            "A protocol"
+                        ],
+                        "answer": "The current instance"
+                    },
+                    {
+                        "question": "How do you define a computed property in Swift?",
+                        "options": [
+                            "var x: Int { return value }",
+                            "var x = { return value }",
+                            "let x = { return value }",
+                            "let x: Int { return value }"
+                        ],
+                        "answer": "var x: Int { return value }"
+                    },
+                    {
+                        "question": "What is the result of 3..<6 in Swift?",
+                        "options": [
+                            "[3, 4, 5, 6]",
+                            "[3, 4, 5]",
+                            "[4, 5, 6]",
+                            "[4, 5]"
+                        ],
+                        "answer": "[3, 4, 5]"
+                    },
+                    {
+                        "question": "What is the purpose of extensions in Swift?",
+                        "options": [
+                            "To add new functionality to existing types",
+                            "To create protocols",
+                            "To handle errors",
+                            "To declare variables"
+                        ],
+                        "answer": "To add new functionality to existing types"
+                    },
+                    {
+                        "question": "What does the willSet property observer do?",
+                        "options": [
+                            "Runs before a property changes",
+                            "Runs after a property changes",
+                            "Checks property access",
+                            "Handles errors"
+                        ],
+                        "answer": "Runs before a property changes"
+                    },
+                    {
+                        "question": "What is a lazy property in Swift?",
+                        "options": [
+                            "A property that is not initialized until it is accessed",
+                            "A property that cannot change",
+                            "A property that throws errors",
+                            "A property with a default value"
+                        ],
+                        "answer": "A property that is not initialized until it is accessed"
+                    },
+                    {
+                        "question": "How do you define a generic function in Swift?",
+                        "options": [
+                            "func myFunction<T>() {}",
+                            "generic func myFunction() {}",
+                            "func myFunction(generic) {}",
+                            "func<T> myFunction()"
+                        ],
+                        "answer": "func myFunction<T>() {}"
+                    },
+                    {
+                        "question": "What is the result of 4...6 in Swift?",
+                        "options": [
+                            "[4, 5, 6]",
+                            "[4, 5]",
+                            "[5, 6]",
+                            "[4, 6]"
+                        ],
+                        "answer": "[4, 5, 6]"
+                    },
+                    {
+                        "question": "What is the purpose of typealias in Swift?",
+                        "options": [
+                            "To define a new type",
+                            "To create an alias for an existing type",
+                            "To handle errors",
+                            "To define protocols"
+                        ],
+                        "answer": "To create an alias for an existing type"
+                    }
+                ]
+            },
+            {
+                "topic": "Object-Oriented Programming (OOP) in Swift",
+                "description": "Key principles of object-oriented programming applied in Swift.",
+                "quiz": [
+                    {
+                        "question": "How do you define a class in Swift?",
+                        "options": [
+                            "class MyClass {}",
+                            "class MyClass() {}",
+                            "MyClass class {}",
+                            "define class MyClass {}"
+                        ],
+                        "answer": "class MyClass {}"
+                    },
+                    {
+                        "question": "What keyword is used to create an instance of a class in Swift?",
+                        "options": [
+                            "new",
+                            "init",
+                            "create",
+                            "make"
+                        ],
+                        "answer": "init"
+                    },
+                    {
+                        "question": "How do you define a computed property in Swift?",
+                        "options": [
+                            "var property: Type { return value }",
+                            "var property: Type = value",
+                            "var property: Type { set { value } }",
+                            "let property: Type { return value }"
+                        ],
+                        "answer": "var property: Type { return value }"
+                    },
+                    {
+                        "question": "What is the purpose of the 'deinit' method in Swift?",
+                        "options": [
+                            "To initialize an object",
+                            "To clean up when an object is deallocated",
+                            "To perform calculations",
+                            "To call other methods in a class"
+                        ],
+                        "answer": "To clean up when an object is deallocated"
+                    },
+                    {
+                        "question": "How do you create a subclass in Swift?",
+                        "options": [
+                            "class SubClass: SuperClass {}",
+                            "class SubClass inherits SuperClass {}",
+                            "class SubClass extends SuperClass {}",
+                            "class SubClass -> SuperClass {}"
+                        ],
+                        "answer": "class SubClass: SuperClass {}"
+                    },
+                    {
+                        "question": "Which of the following is the correct syntax for a Swift protocol?",
+                        "options": [
+                            "protocol MyProtocol {}",
+                            "protocol MyProtocol() {}",
+                            "protocol MyProtocol[] {}",
+                            "protocol: MyProtocol {}"
+                        ],
+                        "answer": "protocol MyProtocol {}"
+                    },
+                    {
+                        "question": "How do you declare a property in a protocol in Swift?",
+                        "options": [
+                            "var property: Type { get set }",
+                            "let property: Type",
+                            "var property: Type",
+                            "property: Type"
+                        ],
+                        "answer": "var property: Type { get set }"
+                    },
+                    {
+                        "question": "What is the default access control level for properties in Swift?",
+                        "options": [
+                            "public",
+                            "private",
+                            "internal",
+                            "fileprivate"
+                        ],
+                        "answer": "internal"
+                    },
+                    {
+                        "question": "What is the purpose of the 'override' keyword in Swift?",
+                        "options": [
+                            "To define a new method",
+                            "To override a superclass method",
+                            "To declare a property",
+                            "To define a constant"
+                        ],
+                        "answer": "To override a superclass method"
+                    },
+                    {
+                        "question": "How do you call a method from a superclass in Swift?",
+                        "options": [
+                            "super.method()",
+                            "self.method()",
+                            "parent.method()",
+                            "call.method()"
+                        ],
+                        "answer": "super.method()"
+                    },
+                    {
+                        "question": "What is the correct way to initialize a class with parameters in Swift?",
+                        "options": [
+                            "init(parameter: Type) {}",
+                            "class MyClass(parameter: Type) {}",
+                            "init { parameter: Type }",
+                            "func init(parameter: Type) {}"
+                        ],
+                        "answer": "init(parameter: Type) {}"
+                    },
+                    {
+                        "question": "How do you declare a constant in Swift?",
+                        "options": [
+                            "let constantName = value",
+                            "var constantName = value",
+                            "constant constantName = value",
+                            "const constantName = value"
+                        ],
+                        "answer": "let constantName = value"
+                    },
+                    {
+                        "question": "Which of the following is a correct way to create an optional property in Swift?",
+                        "options": [
+                            "var property: Type?",
+                            "var property: Type!",
+                            "let property: Type?",
+                            "var property: Optional<Type>"
+                        ],
+                        "answer": "var property: Type?"
+                    },
+                    {
+                        "question": "How do you define a method that takes a parameter in Swift?",
+                        "options": [
+                            "func method(parameter: Type) {}",
+                            "func method(parameter) {}",
+                            "func method(Type parameter) {}",
+                            "method(parameter: Type) {}"
+                        ],
+                        "answer": "func method(parameter: Type) {}"
+                    },
+                    {
+                        "question": "How do you define a static method in a Swift class?",
+                        "options": [
+                            "static func method() {}",
+                            "class func method() {}",
+                            "func static method() {}",
+                            "static method() {}"
+                        ],
+                        "answer": "static func method() {}"
+                    },
+                    {
+                        "question": "What is the purpose of the 'self' keyword in Swift?",
+                        "options": [
+                            "Refers to the current instance of the class",
+                            "Defines a method",
+                            "Defines a property",
+                            "Refers to a parent class"
+                        ],
+                        "answer": "Refers to the current instance of the class"
+                    },
+                    {
+                        "question": "What is the correct way to define a class constant in Swift?",
+                        "options": [
+                            "static let constantName = value",
+                            "let constantName = value",
+                            "var constantName = value",
+                            "class constantName = value"
+                        ],
+                        "answer": "static let constantName = value"
+                    },
+                    {
+                        "question": "How do you declare a class method in Swift?",
+                        "options": [
+                            "class func method() {}",
+                            "static func method() {}",
+                            "func class method() {}",
+                            "class method() {}"
+                        ],
+                        "answer": "class func method() {}"
+                    },
+                    {
+                        "question": "Which of the following is the correct way to define a computed property in Swift?",
+                        "options": [
+                            "var property: Type { return value }",
+                            "let property: Type { return value }",
+                            "var property: Type = value",
+                            "var property: Type { value }"
+                        ],
+                        "answer": "var property: Type { return value }"
+                    },
+                    {
+                        "question": "How do you declare an array in Swift?",
+                        "options": [
+                            "var array = [Type]()",
+                            "var array: [Type]",
+                            "let array: [Type]",
+                            "array = [Type]"
+                        ],
+                        "answer": "var array = [Type]()"
+                    },
+                    {
+                        "question": "How do you check if an object is an instance of a specific class in Swift?",
+                        "options": [
+                            "object is ClassName",
+                            "ClassName(object)",
+                            "object is Class",
+                            "object: ClassName"
+                        ],
+                        "answer": "object is ClassName"
+                    },
+                    {
+                        "question": "How do you define a subclass that inherits from a superclass in Swift?",
+                        "options": [
+                            "class SubClass: SuperClass {}",
+                            "class SubClass inherits SuperClass {}",
+                            "class SubClass extends SuperClass {}",
+                            "class SubClass -> SuperClass {}"
+                        ],
+                        "answer": "class SubClass: SuperClass {}"
+                    },
+                    {
+                        "question": "What is the correct way to define an enum in Swift?",
+                        "options": [
+                            "enum MyEnum {}",
+                            "enum MyEnum() {}",
+                            "MyEnum enum {}",
+                            "define enum MyEnum {}"
+                        ],
+                        "answer": "enum MyEnum {}"
+                    },
+                    {
+                        "question": "How do you declare an enum case with associated values in Swift?",
+                        "options": [
+                            "case caseName(value: Type)",
+                            "case caseName: Type",
+                            "case caseName(value: Type) {}",
+                            "enum case caseName(value: Type)"
+                        ],
+                        "answer": "case caseName(value: Type) {}"
+                    },
+                    {
+                        "question": "What is the correct way to implement a protocol method in Swift?",
+                        "options": [
+                            "func method() {}",
+                            "protocol method() {}",
+                            "method() { protocol }",
+                            "class method() {}"
+                        ],
+                        "answer": "func method() {}"
+                    },
+                    {
+                        "question": "How do you call a protocol method in Swift?",
+                        "options": [
+                            "object.method()",
+                            "protocol.method()",
+                            "self.method()",
+                            "method()"
+                        ],
+                        "answer": "object.method()"
+                    },
+                    {
+                        "question": "How do you declare a protocol with default method implementations in Swift?",
+                        "options": [
+                            "protocol MyProtocol { func method() { } }",
+                            "protocol MyProtocol { default func method() { } }",
+                            "protocol MyProtocol { func method() }",
+                            "protocol MyProtocol { func method() {} }"
+                        ],
+                        "answer": "protocol MyProtocol { func method() { } }"
+                    },
+                    {
+                        "question": "What is the purpose of the 'mutating' keyword in Swift?",
+                        "options": [
+                            "To modify a value within a struct",
+                            "To create a new instance",
+                            "To define a constant",
+                            "To define a method"
+                        ],
+                        "answer": "To modify a value within a struct"
+                    },
+                    {
+                        "question": "How do you define a type alias in Swift?",
+                        "options": [
+                            "typealias NewType = ExistingType",
+                            "type NewType = ExistingType",
+                            "alias NewType = ExistingType",
+                            "type NewType as ExistingType"
+                        ],
+                        "answer": "typealias NewType = ExistingType"
+                    },
+                    {
+                        "question": "How do you access a property of a class instance in Swift?",
+                        "options": [
+                            "instance.property",
+                            "instance.property()",
+                            "instance->property",
+                            "property.instance"
+                        ],
+                        "answer": "instance.property"
+                    },
+                    {
+                        "question": "How do you make a class conform to a protocol in Swift?",
+                        "options": [
+                            "class MyClass: MyProtocol {}",
+                            "class MyClass conforms MyProtocol {}",
+                            "class MyClass implements MyProtocol {}",
+                            "protocol MyProtocol MyClass {}"
+                        ],
+                        "answer": "class MyClass: MyProtocol {}"
+                    },
+                    {
+                        "question": "What is the correct way to implement a class initializer in Swift?",
+                        "options": [
+                            "init() {}",
+                            "func init() {}",
+                            "class init() {}",
+                            "init { }"
+                        ],
+                        "answer": "init() {}"
+                    },
+                    {
+                        "question": "What is the default value of a property in Swift?",
+                        "options": [
+                            "nil",
+                            "0",
+                            "false",
+                            "undefined"
+                        ],
+                        "answer": "nil"
+                    },
+                    {
+                        "question": "How do you create a closure in Swift?",
+                        "options": [
+                            "let closure = { }",
+                            "func closure = { }",
+                            "closure = () -> {}",
+                            "closure = func { }"
+                        ],
+                        "answer": "let closure = { }"
+                    },
+                    {
+                        "question": "How do you access an array element by index in Swift?",
+                        "options": [
+                            "array[index]",
+                            "array[index]()",
+                            "array[index:]",
+                            "array.get(index)"
+                        ],
+                        "answer": "array[index]"
+                    }
+                ]
+            },
+              {
+                "topic": "Variables and Constants",
+                "description": "Understand how to declare variables and constants in Swift and the differences between them.",
+                "quiz": []
+              },
+              {
+                "topic": "Data Types and Optionals",
+                "description": "Learn about Swift's data types and how optionals are used to handle the absence of values safely.",
+                "quiz": []
+              },
+              {
+                "topic": "Control Flow",
+                "description": "Explore Swift's control flow statements, including loops, conditionals, and switch cases.",
+                "quiz": []
+              },
+              {
+                "topic": "Functions",
+                "description": "Understand how to define and use functions in Swift, including parameters, return types, and closures.",
+                "quiz": []
+              },
+              {
+                "topic": "Protocols and Delegates",
+                "description": "Understand protocols and the delegate pattern for communication between objects in Swift.",
+                "quiz": []
+              },
+              {
+                "topic": "Properties and Methods",
+                "description": "Learn about properties and methods in Swift and how they are used in classes, structs, and enums.",
+                "quiz": []
+              },
+              {
+                "topic": "Memory Management",
+                "description": "Explore Swift's memory management using Automatic Reference Counting (ARC) and how to avoid retain cycles.",
+                "quiz": []
+              },
+              {
+                "topic": "Closures",
+                "description": "Understand closures in Swift, their syntax, and their use in callbacks and functional programming.",
+                "quiz": []
+              },
+              {
+                "topic": "Enums and Optionals",
+                "description": "Learn how enums are used to define related values and how they integrate with optionals in Swift.",
+                "quiz": []
+              },
+              {
+                "topic": "Error Handling",
+                "description": "Explore Swift's error handling model using do-catch blocks, throws, and try.",
+                "quiz": []
+              },
+              {
+                "topic": "Generics",
+                "description": "Understand how generics allow you to write flexible and reusable code in Swift.",
+                "quiz": []
+              },
+              {
+                "topic": "Extensions",
+                "description": "Learn how to extend the functionality of existing types using extensions in Swift.",
+                "quiz": []
+              },
+              {
+                "topic": "SwiftUI Basics",
+                "description": "Understand the basics of SwiftUI for building user interfaces declaratively in Swift.",
+                "quiz": []
+              },
+              {
+                "topic": "Networking with URLSession",
+                "description": "Learn how to make API requests and handle networking tasks using URLSession in Swift.",
+                "quiz": []
+              },
+              {
+                "topic": "Concurrency with async/await",
+                "description": "Explore Swift's modern concurrency model using async/await for asynchronous programming.",
+                "quiz": []
+              },
+              {
+                "topic": "Core Data",
+                "description": "Understand how to use Core Data for object graph management and data persistence in Swift.",
+                "quiz": []
+              },
+              {
+                "topic": "Testing and Debugging",
+                "description": "Learn about testing techniques and debugging tools available in Swift and Xcode.",
+                "quiz": []
+              }
+        ]
+    },
+    {
+        "language": "Objective-C",
+        "imageURL": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/objective-c/objective-c.png",
+        "topics": [
+              {
+                "topic": "Introduction to Objective-C",
+                "description": "Learn the basics of Objective-C, its syntax, and how it extends C programming with object-oriented capabilities.",
+                "quiz": []
+              },
+              {
+                "topic": "Classes and Objects",
+                "description": "Understand how to define classes, create objects, and use instance variables and methods in Objective-C.",
+                "quiz": []
+              },
+              {
+                "topic": "Memory Management",
+                "description": "Explore memory management techniques in Objective-C, including ARC (Automatic Reference Counting) and manual retain-release.",
+                "quiz": []
+              },
+              {
+                "topic": "Properties and Instance Variables",
+                "description": "Learn about properties, their attributes, and how they are used to manage instance variables in Objective-C.",
+                "quiz": []
+              },
+              {
+                "topic": "Protocols and Delegates",
+                "description": "Understand the protocol-delegate design pattern used for communication between classes in Objective-C.",
+                "quiz": []
+              },
+              {
+                "topic": "Categories and Extensions",
+                "description": "Learn how to extend the functionality of existing classes using categories and class extensions.",
+                "quiz": []
+              },
+              {
+                "topic": "Blocks",
+                "description": "Understand blocks in Objective-C, which are used for encapsulating code and passing it as arguments.",
+                "quiz": []
+              },
+              {
+                "topic": "Foundation Framework",
+                "description": "Explore the Foundation framework, which provides essential data types, collections, and utilities for Objective-C programming.",
+                "quiz": []
+              },
+              {
+                "topic": "Error Handling",
+                "description": "Learn how to handle errors in Objective-C using exceptions and error objects.",
+                "quiz": []
+              },
+              {
+                "topic": "Dynamic Typing and Runtime",
+                "description": "Understand Objective-C's dynamic typing and runtime features, such as selectors, message passing, and introspection.",
+                "quiz": []
+              },
+              {
+                "topic": "Key-Value Coding (KVC)",
+                "description": "Learn about KVC, which allows you to access an object's properties indirectly using strings.",
+                "quiz": []
+              },
+              {
+                "topic": "Key-Value Observing (KVO)",
+                "description": "Understand KVO, which allows objects to observe changes in other objects' properties.",
+                "quiz": []
+              },
+              {
+                "topic": "NSURLConnection and NSURLSession",
+                "description": "Learn how to handle networking in Objective-C using NSURLConnection and NSURLSession for making API requests.",
+                "quiz": []
+              },
+              {
+                "topic": "Core Data",
+                "description": "Understand Core Data, a framework for managing object graphs and persisting data in Objective-C applications.",
+                "quiz": []
+              },
+              {
+                "topic": "Multithreading and GCD",
+                "description": "Explore multithreading in Objective-C and how to use Grand Central Dispatch (GCD) for concurrent programming.",
+                "quiz": []
+              },
+              {
+                "topic": "User Interface with UIKit",
+                "description": "Learn how to create and manage user interfaces in Objective-C using the UIKit framework.",
+                "quiz": []
+              },
+              {
+                "topic": "Custom Views and Drawing",
+                "description": "Understand how to create custom views and perform drawing operations using Core Graphics in Objective-C.",
+                "quiz": []
+              },
+              {
+                "topic": "Localization",
+                "description": "Learn how to localize Objective-C applications to support multiple languages and regions.",
+                "quiz": []
+              },
+              {
+                "topic": "Testing and Debugging",
+                "description": "Explore testing and debugging techniques for Objective-C applications, including unit tests and breakpoints.",
+                "quiz": []
+              }
+        ]
+    },
+    {
+        "language": "Kotlin",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+        "topics": [
+              {
+                "topic": "Introduction to Kotlin",
+                "description": "Learn the basics of Kotlin, its syntax, and its interoperability with Java.",
+                "quiz": []
+              },
+              {
+                "topic": "Variables and Constants",
+                "description": "Understand how to declare variables and constants in Kotlin and their mutability.",
+                "quiz": []
+              },
+              {
+                "topic": "Data Types and Null Safety",
+                "description": "Learn about Kotlin's data types and how null safety is enforced using nullable types.",
+                "quiz": []
+              },
+              {
+                "topic": "Control Flow",
+                "description": "Explore Kotlin's control flow statements like if-else, when, and loops.",
+                "quiz": []
+              },
+              {
+                "topic": "Functions",
+                "description": "Understand how to define and use functions in Kotlin, including extension functions.",
+                "quiz": []
+              },
+              {
+                "topic": "Classes and Objects",
+                "description": "Learn the object-oriented programming concepts in Kotlin, including class declarations and objects.",
+                "quiz": []
+              },
+              {
+                "topic": "Properties and Methods",
+                "description": "Explore properties and methods in Kotlin and how they work in classes and objects.",
+                "quiz": []
+              },
+              {
+                "topic": "Interfaces and Abstract Classes",
+                "description": "Understand how to use interfaces and abstract classes in Kotlin for abstraction and polymorphism.",
+                "quiz": []
+              },
+              {
+                "topic": "Collections",
+                "description": "Learn about Kotlin's collection framework, including lists, sets, and maps.",
+                "quiz": []
+              },
+              {
+                "topic": "Coroutines",
+                "description": "Understand Kotlin's coroutines for asynchronous programming and concurrency.",
+                "quiz": []
+              },
+              {
+                "topic": "Extensions",
+                "description": "Learn how to extend the functionality of existing classes using extension functions and properties.",
+                "quiz": []
+              },
+              {
+                "topic": "Lambdas and Higher-Order Functions",
+                "description": "Explore Kotlin's support for functional programming with lambdas and higher-order functions.",
+                "quiz": []
+              },
+              {
+                "topic": "Null Safety",
+                "description": "Understand Kotlin's approach to null safety and how to handle nullable types.",
+                "quiz": []
+              },
+              {
+                "topic": "Generics",
+                "description": "Learn how to use generics in Kotlin for type-safe and reusable code.",
+                "quiz": []
+              },
+              {
+                "topic": "Delegation",
+                "description": "Understand Kotlin's delegation pattern and how it simplifies code reuse.",
+                "quiz": []
+              },
+              {
+                "topic": "Sealed Classes",
+                "description": "Learn about sealed classes in Kotlin for restricted class hierarchies.",
+                "quiz": []
+              },
+              {
+                "topic": "Error Handling",
+                "description": "Explore error handling in Kotlin using try-catch blocks and the Result class.",
+                "quiz": []
+              },
+              {
+                "topic": "Kotlin Multiplatform",
+                "description": "Understand how Kotlin can be used for cross-platform development.",
+                "quiz": []
+              },
+              {
+                "topic": "Testing in Kotlin",
+                "description": "Learn about writing tests in Kotlin using frameworks like JUnit and MockK.",
+                "quiz": []
+              }
+
+        ]
+    },
+    {
+        "language": "Flutter",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
+        "topics": [
+              {
+                "topic": "Introduction to Flutter",
+                "description": "Learn the basics of Flutter, its architecture, and why it is used for cross-platform development.",
+                "quiz": []
+              },
+              {
+                "topic": "Dart Programming Language",
+                "description": "Understand Dart, the programming language used in Flutter, and its core concepts.",
+                "quiz": []
+              },
+              {
+                "topic": "Widgets",
+                "description": "Explore Flutter's widget-based architecture and how to create custom widgets.",
+                "quiz": []
+              },
+              {
+                "topic": "State Management",
+                "description": "Learn about managing state in Flutter using various approaches like Provider, Riverpod, and Bloc.",
+                "quiz": []
+              },
+              {
+                "topic": "Layouts and Styling",
+                "description": "Understand how to design layouts in Flutter using rows, columns, stacks, and more.",
+                "quiz": []
+              },
+              {
+                "topic": "Navigation and Routing",
+                "description": "Learn how to navigate between screens and implement routing in Flutter applications.",
+                "quiz": []
+              },
+              {
+                "topic": "Forms and Input",
+                "description": "Explore form handling, validation, and managing user inputs in Flutter.",
+                "quiz": []
+              },
+              {
+                "topic": "Networking",
+                "description": "Understand how to make HTTP requests, fetch data from APIs, and work with JSON in Flutter.",
+                "quiz": []
+              },
+              {
+                "topic": "Stateful and Stateless Widgets",
+                "description": "Learn the difference between stateful and stateless widgets and when to use them.",
+                "quiz": []
+              },
+              {
+                "topic": "Animations",
+                "description": "Understand how to create animations in Flutter to enhance user experience.",
+                "quiz": []
+              },
+              {
+                "topic": "Database Integration",
+                "description": "Learn about integrating local databases like SQLite and Hive in Flutter applications.",
+                "quiz": []
+              },
+              {
+                "topic": "Firebase Integration",
+                "description": "Understand how to use Firebase services like authentication, Firestore, and cloud messaging in Flutter.",
+                "quiz": []
+              },
+              {
+                "topic": "Responsive Design",
+                "description": "Explore techniques for building responsive Flutter apps that work on various screen sizes.",
+                "quiz": []
+              },
+              {
+                "topic": "Custom Themes",
+                "description": "Learn how to create and manage custom themes in Flutter for consistent app styling.",
+                "quiz": []
+              },
+              {
+                "topic": "Error Handling",
+                "description": "Understand error handling in Flutter and how to manage exceptions effectively.",
+                "quiz": []
+              },
+              {
+                "topic": "Publishing Flutter Apps",
+                "description": "Learn the steps to publish Flutter apps to the Google Play Store and Apple App Store.",
+                "quiz": []
+              },
+              {
+                "topic": "Testing in Flutter",
+                "description": "Understand how to write unit, widget, and integration tests in Flutter applications.",
+                "quiz": []
+              },
+              {
+                "topic": "Flutter Plugins",
+                "description": "Learn how to use and create Flutter plugins to extend app functionality.",
+                "quiz": []
+              },
+              {
+                "topic": "Advanced Flutter Concepts",
+                "description": "Explore advanced topics like isolate, streams, and performance optimization in Flutter.",
+                "quiz": []
+              }
+
+        ]
+    },
+    {
+        "language": "Dart",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png",
+        "topics": [
+              {
+                "topic": "Introduction to Dart",
+                "description": "Learn about Dart, its features, and its role in building Flutter applications.",
+                "quiz": []
+              },
+              {
+                "topic": "Variables and Data Types",
+                "description": "Understand variables, constants, and different data types in Dart.",
+                "quiz": []
+              },
+              {
+                "topic": "Control Flow Statements",
+                "description": "Learn about if-else, loops, and switch-case in Dart.",
+                "quiz": []
+              },
+              {
+                "topic": "Functions",
+                "description": "Explore functions, parameters, and return types in Dart.",
+                "quiz": []
+              },
+              {
+                "topic": "Classes and Objects",
+                "description": "Understand object-oriented programming in Dart with classes and objects.",
+                "quiz": []
+              },
+              {
+                "topic": "Inheritance and Polymorphism",
+                "description": "Learn about inheritance, polymorphism, and overriding methods in Dart.",
+                "quiz": []
+              },
+              {
+                "topic": "Collections",
+                "description": "Understand lists, sets, and maps in Dart and their usage.",
+                "quiz": []
+              },
+              {
+                "topic": "Asynchronous Programming",
+                "description": "Learn about async, await, and Futures in Dart for handling asynchronous operations.",
+                "quiz": []
+              },
+              {
+                "topic": "Error Handling",
+                "description": "Understand exception handling using try-catch in Dart.",
+                "quiz": []
+              },
+              {
+                "topic": "Null Safety",
+                "description": "Explore Dart's null safety features and how to avoid null-related errors.",
+                "quiz": []
+              },
+              {
+                "topic": "Mixins",
+                "description": "Learn about mixins in Dart for code reuse in classes.",
+                "quiz": []
+              },
+              {
+                "topic": "Libraries and Packages",
+                "description": "Understand how to use and create libraries and packages in Dart.",
+                "quiz": []
+              },
+              {
+                "topic": "Streams",
+                "description": "Learn about streams in Dart for managing asynchronous data.",
+                "quiz": []
+              }
+
+        ]
+    },
+    {
+        "language": "React Native",
+        "imageURL": "https://static-00.iconduck.com/assets.00/react-icon-1024x1024-wwxwlds8.png",
+        "topics": [
+              {
+                "topic": "Introduction to React Native",
+                "description": "Learn about React Native, its architecture, and why it is used for cross-platform development.",
+                "quiz": []
+              },
+              {
+                "topic": "JSX and Components",
+                "description": "Understand JSX and how to create functional and class components in React Native.",
+                "quiz": []
+              },
+              {
+                "topic": "State and Props",
+                "description": "Learn about state and props to manage and pass data in components.",
+                "quiz": []
+              },
+              {
+                "topic": "Styling in React Native",
+                "description": "Explore styling components using StyleSheet and inline styles.",
+                "quiz": []
+              },
+              {
+                "topic": "Navigation",
+                "description": "Understand navigation in React Native using libraries like React Navigation.",
+                "quiz": []
+              },
+              {
+                "topic": "API Integration",
+                "description": "Learn how to fetch and display data from APIs in React Native.",
+                "quiz": []
+              },
+              {
+                "topic": "Forms and Input Handling",
+                "description": "Understand how to handle forms and user inputs in React Native.",
+                "quiz": []
+              },
+              {
+                "topic": "State Management",
+                "description": "Learn about managing state using Context API, Redux, or MobX.",
+                "quiz": []
+              },
+              {
+                "topic": "React Native Animations",
+                "description": "Explore creating animations using Animated API and third-party libraries.",
+                "quiz": []
+              },
+              {
+                "topic": "React Native CLI and Expo",
+                "description": "Understand the differences between React Native CLI and Expo and when to use each.",
+                "quiz": []
+              },
+              {
+                "topic": "Testing in React Native",
+                "description": "Learn about testing React Native apps using Jest and React Native Testing Library.",
+                "quiz": []
+              },
+              {
+                "topic": "Debugging React Native Apps",
+                "description": "Understand how to debug React Native apps using tools like React Developer Tools.",
+                "quiz": []
+              },
+              {
+                "topic": "Publishing React Native Apps",
+                "description": "Learn the steps to publish React Native apps to the Google Play Store and Apple App Store.",
+                "quiz": []
+              }
+
+        ]
+    }
+    
+]
